@@ -25,3 +25,13 @@ body {
     grid-column: 2 / span 18;
     grid-row: 3;
 }
+
+#work-experience{
+    grid-column: 2 / span 10;
+    grid-row: 4;
+}
+
+.NHD{
+    grid-column: 2 / span 10;
+    grid-row: 5;
+}
