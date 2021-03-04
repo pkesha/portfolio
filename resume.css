@@ -1,0 +1,17 @@
+body {
+    background-image: url("images/index-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+
+    /*view width and height. Independent of other elements*/
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    /*template rows & columns - each term represents # of rows, value is size*/
+    grid-template-rows: repeat(20, 5%);
+    grid-template-columns: repeat(20, 5%);
+
+}
