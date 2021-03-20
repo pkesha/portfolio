@@ -13,6 +13,8 @@ body {
 h1 {
     font-size: 300%;
     font-family: 'Montserrat', sans-serif;
+    grid-row: 1;
+    grid-column: 1 / span 12;
 }
 
 #credentials {
