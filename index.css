@@ -20,15 +20,16 @@ h1 {
     grid-row: 1;
     grid-column: 2 / span 10;
     font-size: 300%;
+    font-family: Mo;
 }
 
 #credentials {
-    grid-row: 18;
+    grid-row: 16;
     grid-column: 9 / span 11;
 }
 
 #profilepic {
-    grid-row: 12;
+    grid-row: 11;
     grid-column: 12 / span 3;
     width: 200px;
     height: 200px;
