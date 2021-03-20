@@ -1,47 +1,29 @@
 body {
 
     /*view width and height. Independent of other elements*/
-    height: 100vh;
-    width: 100vw;
+    /*height: 100vh;*/
+    /*width: 100vw;*/
 
-    /*display: grid;*/
     /*!*template rows & columns - each term represents # of rows, value is size*!*/
     /*grid-template-rows: repeat(25, 4%);*/
     /*grid-template-columns: repeat(25, 4%);*/
 }
 
 h1 {
-    grid-row: 1;
-    grid-column: 2 / span 12;
     font-size: 300%;
     font-family: 'Montserrat', sans-serif;
 }
 
 #credentials {
-    grid-row: 19;
-    grid-column: 7 / span 13;
     font-family: 'Montserrat', sans-serif;
 }
 
-#profilepic {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
+#profilePic {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
 }
-
-.images {
-    display: flex;
-    flex-direction: row;
-    grid-row: 20 / span 5;
-    grid-column: 2 / span 18;
-    justify-content: space-evenly;
-}
-
-/*#star-wars, #retro-gaming, #archery {*/
-/*    border-style: solid;*/
-/*    padding: 10px;*/
-/*    width: 20%;*/
-
-/*}*/
 
