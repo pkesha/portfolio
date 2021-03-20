@@ -24,7 +24,6 @@ h1 {
 }
 
 #profilePic {
-    /*This centers the element*/
     top: 50%;
 
     height: 200px;
@@ -33,15 +32,14 @@ h1 {
 
 .divider {
     border-top: 3px solid #bbb;
-    top: 62%;
-    size: 10px;
-    width: 100px;
+    top: 63%;
+    width: 300px;
 }
 
 
 #credentials {
     margin-top: 50px;
-    top: 65%;
+    top: 64%;
     font-family: 'Montserrat', sans-serif;
 }
 
