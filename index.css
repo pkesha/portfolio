@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/index-background.jpg");
+    /*background-image: url("images/index-background.jpg");*/
     background-position: center;
     background-size: cover;
     background-size: 100%;
@@ -11,8 +11,8 @@ body {
 
     display: grid;
     /*template rows & columns - each term represents # of rows, value is size*/
-    grid-template-rows: repeat(20, 5%);
-    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(25, 4%);
+    grid-template-columns: repeat(25, 4%);
 
 }
 
@@ -23,20 +23,15 @@ h1 {
 }
 
 #credentials {
-    grid-row: 3;
-    grid-column: 2 / span 10;
+    grid-row: 18;
+    grid-column: 9 / span 11;
 }
 
 #profilepic {
-    grid-row: 2;
-    grid-column: 16 / span 3;
+    grid-row: 12;
+    grid-column: 12 / span 3;
     width: 200px;
     height: 200px;
-}
-
-#description {
-    grid-row: 4;
-    grid-column: 2 / span 8;
 }
 
 .images {
@@ -47,22 +42,10 @@ h1 {
     justify-content: space-evenly;
 }
 
-#star-wars, #retro-gaming, #archery {
-    border-style: solid;
-    padding: 10px;
-    width: 20%;
+/*#star-wars, #retro-gaming, #archery {*/
+/*    border-style: solid;*/
+/*    padding: 10px;*/
+/*    width: 20%;*/
 
-}
+/*}*/
 
-#form {
-    grid-row: 17;
-    grid-column: 1 / span 20;
-    text-align: center;
-}
-
-footer {
-    grid-row: 19;
-    grid-column: 1 / span 20;
-    text-align: center;
-    font-size: 40px;
-}
