@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-    font-size: 250%;
+    font-size: 225%;
     grid-row: 1;
-    grid-column: 1 / span 12;
+    grid-column: 2 / span 12;
 }
 
 .links {
