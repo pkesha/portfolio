@@ -10,17 +10,14 @@
 }
 
 
-/*This is the header.  There is a flex box within the header to align elements*/
+/*This is the header.*/
 .header {
-    grid-row: 1 /span 3;
+    position: fixed;
+    grid-row: 1 / span 3;
     grid-column: 1 / span 25;
     font-family: 'Montserrat',  sans-serif;
+    background-color: grey;
 }
-
-h1, .links {
-    position: fixed;
-}
-
 h1 {
     position: fixed;
     left: 3%;
@@ -31,6 +28,14 @@ h1 {
     position: fixed;
     right: 3%;
     top: 3%;
+}
+
+/*Code for body*/
+.body {
+    position: fixed;
+    grid-row: 4 / span 22;
+    grid-column: 1 / span 25;
+    /*background-color: coral;*/
 }
 
 #contact, #resumeProjects, #github {
