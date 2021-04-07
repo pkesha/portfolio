@@ -3,10 +3,9 @@ body {
     height: 98vh;
     width: 96vw;
 
-    /*flex-direction: row;*/
+    /*display: flex;*/
     /*flex-wrap: wrap;*/
-    /*align-items: flex-start;*/
-    /*flex: 1 1 160px;*/
+    /*flex-direction: row;*/
 }
 .education {
     float: right;
@@ -28,12 +27,24 @@ body {
     padding-right: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     body {
-        display: flex;
+        height: 98vh;
+        width: 96vw;
+        display: grid;
+        grid-column: span 1;
+        grid-row: span 3;
     }
-    .projects, .work {
-        flex-direction: row;
-        flex-basis: 100%;
+
+    .projects {
+        grid-row: 1;
+    }
+
+    .work {
+        grid-row: 2;
+    }
+
+    .projects {
+        grid-row: 3;
     }
 }
