@@ -1,66 +1,39 @@
 body {
-    /*background-image: url("images/index-background.jpg");*/
-    background-position: center;
-    background-size: cover;
-    background-size: 100%;
-
     /*view width and height. Independent of other elements*/
-    /*Did 98 instead of 100 because it kept adding scrollers*/
     height: 98vh;
     width: 96vw;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    /*template rows & columns - each term represents # of rows, value is size*/
-    flex: 1 1 160px;
-}
-.body > * {
-
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;*/
+    /*flex: 1 1 160px;*/
 }
 .education {
     float: right;
     width: 100%;
     height: 15%;
 }
-.projects {
-    float: left;
+
+.projects, .work {
+    max-width: 45%;
+    width: auto;
 }
-.work {
+.projects {
     float: right;
+}
+
+.work {
+    float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-/*h2{*/
-/*    margin-bottom: -10px;*/
-/*}*/
-
-/*.education, .work, .projects {*/
-/*    align-content: flex-start;*/
-/*    flex-direction: row;*/
-/*}*/
-/*.education > * {*/
-/*    grid-column: 2 / span 10;*/
-/*    grid-row: 2;*/
-/*    display: grid;*/
-/*    flex-direction: column;*/
-/*    justify-content: flex-start;*/
-/*}*/
-
-/*.work > * {*/
-/*    grid-column: 2 / span 10;*/
-/*    grid-row: 4 / span 16;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: flex-start;*/
-/*}*/
-
-/*.projects > *{*/
-/*    grid-column:  16 / span 10;*/
-/*    grid-row: 4 / span 14;*/
-/*    display: grid;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*}*/
+@media (max-width: 480px) {
+    body {
+        display: flex;
+    }
+    .projects, .work {
+        flex-direction: row;
+        flex-basis: 100%;
+    }
+}
