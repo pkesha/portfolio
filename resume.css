@@ -1,21 +1,28 @@
+.education ul {
+    list-style-type: none;
+}
 
+#ga, #bachelors, #bachelors-awards-honors {
+    margin-bottom: -10px;
+}
+
+#ga {
+    margin-top: -10px;
+}
 
 @media screen and (min-width: 900px) {
     body {
         /*view width and height. Independent of other elements*/
         height: 98vh;
         width: 96vw;
-
-        /*display: flex;*/
-        /*flex-wrap: wrap;*/
-        /*flex-direction: row;*/
     }
 
 
     .education {
         float: right;
         width: 99%;
-        height: 15%;
+        height: 20%;
+        height: auto;
     }
 
     .projects, .work {
