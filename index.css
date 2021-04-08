@@ -1,24 +1,43 @@
+body {
+    font-family: "Montserrat";
+    height: 98vh;
+    width: 98vw;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media only screen and (min-width: 900px) {
-    body {
-        height: 98vh;
-        width: 98vw;
-        font-family: "Montserrat";
-        display: flex;
-        flex-direction: column;
-    }
 
     .header {
-        height: 10%;
-        width: 100%;
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     h1 {
         margin-right: auto;
+        padding-left: 10px;
     }
 
     .links {
@@ -29,6 +48,7 @@
         justify-content: right;
         padding-right: 10px;
     }
+
 
     .intro {
         height: 90%;
@@ -42,9 +62,8 @@
         min-width: 500px;
     }
 
-    #profile-pic {
-        width: 200px;
-        height: 200px;
+    #profile-pic{
+        justify-content: center;
     }
 
     .divider {
@@ -55,6 +74,19 @@
 }
 
 @media only screen and (max-width: 899px) {
+    body {
+
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
 
 }
 
