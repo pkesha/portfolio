@@ -44,8 +44,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    min-height: 500px;
-    min-width: 500px;
     width: auto;
 }
 
@@ -76,6 +74,10 @@ body {
         margin-left: auto;
     }
 
+    .intro {
+        min-height: 500px;
+        min-width: 500px;
+    }
     #resume-projects, #github, #contact {
         justify-content: right;
         padding-right: 10px;
