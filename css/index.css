@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 0px 10px;
+    background-attachment: fixed;
 
     font-family: "Montserrat";
     height: 98vh;
@@ -36,7 +37,6 @@ body {
 }
 
 .intro {
-    z-index: 1;
     height: 80%;
 
     display: flex;
@@ -52,15 +52,10 @@ body {
 .divider {
     border-top: 3px solid #bbb;
     top: 63%;
-    width: 300px;
 }
 
 
 @media only screen and (min-width: 900px) {
-    body{
-
-    }
-
     .header {
         flex-direction: row;
     }
@@ -78,16 +73,15 @@ body {
         min-height: 500px;
         min-width: 500px;
     }
+
     #resume-projects, #github, #contact {
         justify-content: right;
         padding-right: 10px;
         padding-left: 10px;
     }
 
-    #profile-pic, .divider, #credentials {
-        justify-content: center;
-        align-items: center;
-        width: auto;
+    .divider{
+        width: 300px;
     }
 }
 
@@ -97,8 +91,11 @@ body {
     }
 
     .header {
-        display: flex;
         flex-direction: column;
+    }
+
+    .intro {
+        min-height: 500px;
     }
 
 }
