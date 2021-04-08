@@ -1,6 +1,15 @@
 body{
     height: 98vh;
     width: 96vw;
+    color: ghostwhite;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),
+    url("https://csengineermag.com/wp-content/uploads/2020/04/AdobeStock_317396428.jpeg");
+    background-size: 100% 100%;
+}
+
+a {
+    color: lightblue;
 }
 
 .education ul {
