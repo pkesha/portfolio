@@ -45,8 +45,8 @@ body {
     justify-content: center;
 
     width: auto;
+    text-align: center;
 }
-
 
 
 .divider {
@@ -87,6 +87,7 @@ body {
     #profile-pic, .divider, #credentials {
         justify-content: center;
         align-items: center;
+        width: auto;
     }
 }
 
