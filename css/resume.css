@@ -1,3 +1,8 @@
+body{
+    height: 98vh;
+    width: 96vw;
+}
+
 .education ul {
     list-style-type: none;
 }
@@ -11,13 +16,6 @@
 }
 
 @media screen and (min-width: 900px) {
-    body {
-        /*view width and height. Independent of other elements*/
-        height: 98vh;
-        width: 96vw;
-    }
-
-
     .education {
         float: right;
         width: 99%;
@@ -43,8 +41,6 @@
 
 @media only screen and (max-width: 899px) {
     body {
-        height: 98vh;
-        width: 96vw;
         display: flex;
         flex-direction: column;
     }
