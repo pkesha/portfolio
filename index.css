@@ -4,6 +4,8 @@
         height: 98vh;
         width: 98vw;
         font-family: "Montserrat";
+        display: flex;
+        flex-direction: column;
     }
 
     .header {
@@ -28,10 +30,16 @@
         padding-right: 10px;
     }
 
-    .body {
+    .intro {
+        height: 90%;
+
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        min-height: 500px;
+        min-width: 500px;
     }
 
     #profile-pic {
@@ -45,7 +53,6 @@
         width: 300px;
     }
 }
-
 
 @media only screen and (max-width: 899px) {
 
