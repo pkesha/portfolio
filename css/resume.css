@@ -5,8 +5,9 @@ body{
 
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),
     url("https://csengineermag.com/wp-content/uploads/2020/04/AdobeStock_317396428.jpeg");
-    background-size: 100% 100%;
     background-attachment: fixed;
+
+    background-size: 100% 100%;
 }
 
 a {
@@ -26,10 +27,13 @@ a {
 }
 
 @media screen and (min-width: 900px) {
+    body{
+        font-size: 23px;
+    }
+
     .education {
         float: right;
         width: 99%;
-        height: 20%;
         height: auto;
     }
 
@@ -53,6 +57,7 @@ a {
     body {
         display: flex;
         flex-direction: column;
+        font-size: 22px;
     }
 
     .education, .work, .projects {
