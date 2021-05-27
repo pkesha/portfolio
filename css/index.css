@@ -21,6 +21,7 @@ body {
 #background-image {
     z-index: -1;
 }
+
 #profile-pic {
     width: 200px;
     height: 200px;
@@ -80,7 +81,7 @@ body {
         padding-left: 10px;
     }
 
-    .divider{
+    .divider {
         width: 300px;
     }
 }
